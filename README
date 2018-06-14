@@ -1,0 +1,11 @@
+1 - O algoritmo roda a partir do Makefile. Para testar siga os passos.
+ - Dê make clean para limpar a pasta de saida
+ - Recompile com make
+ - O script de teste roda com make test.
+
+2 - O filtro está configurado de forma padrão (Valor 15), para mudar, é necessário alterar diretamente no código fonte (main.c , main_thread.c , main_multiprocess.c.
+ - Para alterar no main.c, troque o valor 15 das linhas 26 até 28 pelo tamanho desejado
+ - Para alterar no main_multiprocess.c, troque o valor 15 nas linhas 54, 58, 62 pelo valor desejado.
+ - Para alterar no main_thread.c troque o valor 15 nas linhas 47, 51, 55
+
+3 - Para testar novas imagens, basta colocar o arquivo em formato .jpeg na pasta data.
